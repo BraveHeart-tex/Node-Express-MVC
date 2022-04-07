@@ -1,0 +1,33 @@
+Middleware
+Code which runs (on the server) between getting a request and
+sending a response
+
+Middleware Examples
+Logger middleware to log details of every request
+Authentication check middleware for protected routes
+Middleware to parse JSON data from requests
+Return 404 pages
+
+GET requests to get a resource
+POST requests to create new data (e.g. a new blog)
+DELETE requests to delete data (e.g. delete a blog)
+PUT requests to update data (e.g. update a blog)
+
+localhost:3000/blogs GET
+localhost:3000/blogs/create GET
+localhost:3000/blogs POST
+localhost:3000/blogs/:id GET
+localhost:3000/blogs/:id DELETE
+localhost:3000/blogs/:id PUT
+
+======Route Parameters========
+The variable parts of the route that may change value
+localhost:3000/blogs/:id
+localhost:3000/blogs/12345
+localhost:3000/blogs/50
+localhost:3000/blogs/hello
+
+MVC Basics
+Stands for Model, View, Controller
+MVC is a way of structuring our code & files
+Keeps code more modular, reusable & easier to read
